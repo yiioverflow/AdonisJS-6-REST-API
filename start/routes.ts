@@ -26,7 +26,7 @@ router.get('/', ({ response }) => {
 router
   .group(() => {
     router.get('/', () => {
-      return { success: true, message: 'I AM YOUR FATHER!' }
+      return { success: true, message: 'Hello! Nice to meet you.' }
     })
 
     // auth, generate token
